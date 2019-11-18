@@ -1,1 +1,3 @@
-https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/
+#https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive/
+# Initialising Kube cluster 
+ kubeadm init --apiserver-advertise-address $(hostname -i)
